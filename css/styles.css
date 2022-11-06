@@ -702,10 +702,6 @@ footer .logo {
   margin-top: 50px;
 }
 
-.examples-item {
-  flex-basis: calc((100% - 90px) / 3);
-}
-
 .examples-item a.link:hover, 
 .examples-item a.link:focus {
   box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%), 1px 4px 6px rgb(0 0 0 / 16%);
@@ -736,11 +732,11 @@ footer .logo {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.examples-item:hover .examples-top-text {
+.examples-item a.link:hover .examples-top-text {
   transform: translateY(-100%);
 }
 
-.examples-item:focus .examples-top-text {
+.examples-item a.link:focus .examples-top-text {
   transform: translateY(-100%);
 }
 
